@@ -60,17 +60,17 @@ bot.on('message', msg => {
     msg.delete(30000);
   }
  
-  if (msg.channel.name === 'rpg-space' && 
-  msg.embeds[0]?.description?.includes('enchanted'))
-  {
+  // if (msg.channel.name === 'rpg-space' && 
+  // msg.embeds[0]?.description?.includes('enchanted'))
+  // {
     
-    msg.delete(10000);
-  }
+  //   msg.delete(10000);
+  // }
 
-  if (msg.content?.includes('Erin'))
-  {
-    msg.reply("She is weird");
-  }
+  // if (msg.content?.includes('Erin'))
+  // {
+  //   msg.reply("She is weird");
+  // }
 
 
   // if (msg.mentions.users.first()?.id === "106075884506591232")
