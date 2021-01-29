@@ -54,8 +54,7 @@ bot.on('message', msg => {
     msg.delete(1);
   } 
   if (msg.channel.name === 'rpg-space' && 
-  msg.author.id === "749820490926784615" &&
-  msg.content?.includes('PET')
+  msg.author.id === "749820490926784615"
   )
   {
     msg.delete(30000);
